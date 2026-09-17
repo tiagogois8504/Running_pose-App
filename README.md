@@ -19,18 +19,48 @@ The prototype was developed as part of a broader project comparing video-based r
 * Experimental detection of foot-ground contact events
 * Basic graphical interface for video analysis
 
+## Technologies
+
+* Python
+* OpenCV
+* MediaPipe
+* CustomTkinter
+* Pillow
+
+## Project Structure
+
+* `main.py` — application entry point
+* `interface.py` — graphical interface
+* `video_display.py` — video playback and frame navigation
+* `video_processor.py` — video processing and pose estimation
+
 ## How to Run
 
 1. Install the required dependencies:
 
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 
 2. Run the application:
 
-    python main.py
+   python main.py
+
+## Limitations
+
+The automatic gait-event detection was developed as an exploratory prototype and was not sufficiently robust for the final experimental analysis.
+
+Detection accuracy was affected by factors such as:
+
+* Partial foot occlusion
+* Variability in pose-estimation landmarks
+* Camera perspective
+* Rapid movement at higher running speeds
+
+For the final internship analysis, gait events were therefore identified manually using frame-by-frame video analysis in Kinovea.
 
 ## Context
 
 This project was developed during a curricular internship focused on running biomechanics, spatiotemporal gait parameters and validation of measurement methods.
 
 The work combined programming, computer vision, biomechanics and data analysis in an applied sports-performance environment.
+
+
