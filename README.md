@@ -23,28 +23,11 @@ The prototype was developed as part of a broader project comparing video-based r
 
 1. Install the required dependencies:
 
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-## Project Structure
+2. Run the application:
 
-* `main.py` — application entry point
-* `interface.py` — graphical interface
-* `video_display.py` — video display functionality
-* `video_processor.py` — video processing and pose analysis
-
-## Limitations
-
-The automatic gait-event detection was developed as an exploratory prototype and was not sufficiently robust for the final experimental analysis.
-
-Detection accuracy was affected by factors such as:
-
-* Partial foot occlusion
-* Variability in pose-estimation landmarks
-* Camera perspective
-* Rapid movement at higher running speeds
-
-For the final internship analysis, gait events were therefore identified manually using frame-by-frame video analysis in Kinovea.
+    python main.py
 
 ## Context
 
