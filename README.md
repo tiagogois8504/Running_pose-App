@@ -19,11 +19,12 @@ The prototype was developed as part of a broader project comparing video-based r
 * Experimental detection of foot-ground contact events
 * Basic graphical interface for video analysis
 
-## Technologies
+## How to Run
 
-* Python
-* Computer Vision
-* Pose Estimation
+1. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
 
 ## Project Structure
 
